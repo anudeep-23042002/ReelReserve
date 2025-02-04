@@ -1,4 +1,4 @@
-package com.reelReserve.apigateway.Controllers;
+package com.reelReserve.apigateway.Config;
 
 import io.github.bucket4j.Bandwidth;
 import io.github.bucket4j.Bucket;

@@ -1,5 +1,6 @@
 package com.reelReserve.apigateway.Controllers;
 
+import com.reelReserve.apigateway.Config.RateLimitConfig;
 import com.reelReserve.apigateway.Dto.RequestDto.LocationDto;
 import com.reelReserve.apigateway.Dto.ResponseDto.LocationResponseDto;
 import com.reelReserve.apigateway.Dto.ResponseDto.MovieResponseDto;
