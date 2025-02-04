@@ -15,8 +15,8 @@ import static ch.qos.logback.core.encoder.ByteArrayUtil.hexStringToByteArray;
 
 @Service
 public class JWTService {
-    //private static final long EXPIRATION_TIME = 1000*60*60;
-    private static final long EXPIRATION_TIME = 1000*30;
+    private static final long EXPIRATION_TIME = 1000*60*60;
+    //private static final long EXPIRATION_TIME = 1000*30;
     String hexKey = "1ab69bfc95a9741637074717ea50c6b577c401b3836da9df65b5d262c261c6cd70565828fb7cb33b3dfad60321da67e1";
 
     byte[] keyBytes = hexStringToByteArray(hexKey);
